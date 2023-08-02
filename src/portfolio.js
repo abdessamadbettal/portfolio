@@ -301,7 +301,7 @@ const achievementSection = {
       title: "Development with Mern Stack",
       subtitle:
         "Course of 27.5 hours to learn Mern Stack with React, Next js, Redux, Nodejs, Expressjs and MongoDB",
-      image: require("./assets/images/mern.webp"),
+      image: require("./assets/images/mern.jpg"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
