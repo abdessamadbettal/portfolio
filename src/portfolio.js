@@ -56,7 +56,9 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Develop and maintain web applications using PHP and the Laravel framework."),
+    emoji(
+      "⚡ Develop and maintain web applications using PHP and the Laravel framework."
+    ),
     emoji("⚡ Integration of third party services such as Cpanel/ AWS")
   ],
 

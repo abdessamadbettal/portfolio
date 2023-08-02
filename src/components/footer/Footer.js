@@ -14,9 +14,7 @@ export default function Footer() {
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {" "}
-          <a href="https://github.com/abdessamadbettal">
-            github
-          </a>
+          <a href="https://github.com/abdessamadbettal">github</a>
         </p>
       </div>
     </Fade>
