@@ -247,14 +247,14 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/espaceo.jpg"),
+      image: require("./assets/images/myespaceo.jpg"),
       projectName: "Myespaceo",
       projectDesc:
         "In MyEspaceo, it combine real estate data with intuitive apps, empowering users to improve themselves in the property market",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "https://myespaceo.com/"
+          name: "Visit In LinkedIn",
+          url: "https://www.linkedin.com/company/myrestai/about/"
         }
         //  you can add extra buttons here.
       ]
