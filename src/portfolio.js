@@ -189,7 +189,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full-Stack Developer",
+      role: "Full Stack Developer",
       company: "MyRestAi",
       companylogo: require("./assets/images/rest.jpg"),
       date: "mars 2023 – Present",
