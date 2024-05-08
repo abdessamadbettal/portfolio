@@ -51,7 +51,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -180,7 +180,7 @@ const techStack = {
       progressPercentage: "50%"
     }
   ],
-  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -190,9 +190,22 @@ const workExperiences = {
   experience: [
     {
       role: "Full Stack Developer",
+      company: "Groove Digital",
+      companylogo: require("./assets/images/groove.png"),
+      date: "September 2023 – Present",
+      desc: "Responsible for developing and maintaining for Groove Blog and Groove Mail.",
+      descBullets: [
+        "Refactored the codebase to be more modular and maintainable.",
+        "Implemented new features and bug fixes, upgrade for existing applications.",
+        "Optimized the performance of the application.",
+        "Make the application more secure by implementing security measures and wrote clean, maintainable code.",
+      ]
+    },
+    {
+      role: "Full Stack Developer",
       company: "MyRestAi",
       companylogo: require("./assets/images/rest.jpg"),
-      date: "mars 2023 – Present",
+      date: "mars 2023 – September 2023",
       desc: "Developed a new version of a real estate management application, from conception to production.",
       descBullets: [
         "Migrated the codebase from Vue.js 2 and Carbon to Vue.js 3 and Tailwind CSS.",
@@ -203,23 +216,11 @@ const workExperiences = {
       ]
     },
     {
-      role: "Backend Developer",
-      company: "SdGraph",
-      companylogo: require("./assets/images/sdgraph.jpg"),
-      date: "june 2022 – octobre 2022",
-      desc: "Creation of a website to manage products/services, facilitate customer contact, and present the profile of the company SD-GRAPH",
-      descBullets: [
-        "Create and optimize APIs using PHP and the Laravel framework to integrate with external systems. ",
-        "Write efficient MySQL queries and optimize database performance",
-        "Collaborate with cross-functional teams to gather requirements and implement new features."
-      ]
-    },
-    {
       role: "FreeLancer Full-Stack Developer",
-      company: "Fiverr",
-      companylogo: require("./assets/images/fiverr.jpg"),
-      date: "may 2020 – june 2022",
-      desc: "",
+      company: "LinkedIn Services",
+      companylogo: require("./assets/images/linkedin.jpg"),
+      date: "may 2021 – present",
+      desc: "Developed and maintained web applications for clients.",
       descBullets: [
         "understand and translate business goals and requirements from cross-functional directors into strategic technical plans and projects",
         "Design, code, test, debug, maintain web applications using PHP, Javascript, Laravel, Tailwind CSS, React.js, Node.js, and Express.",
@@ -247,16 +248,35 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/myespaceo.jpg"),
-      projectName: "Myespaceo",
+      image: require("./assets/images/groove.png"),
+      projectName: "Groove Digital",
       projectDesc:
-        "In MyEspaceo, it combine real estate data with intuitive apps, empowering users to improve themselves in the property market",
+        "The Better Way To Build Funnels And Sell Digital Products",
       footerLink: [
         {
           name: "Visit In LinkedIn",
-          url: "https://www.linkedin.com/company/myrestai/about/"
+          url: "https://www.linkedin.com/company/Groovecm/"
+        },
+        {
+          name: "Visit Website",
+          url: "https://groove.cm/"
         }
-        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/5g.png"),
+      projectName: "5GWorldPro",
+      projectDesc:
+        "5GWorldPro.com provides 5G training and consulting services to many telcos and institutions, and gives last 5G news and 5G knowledge.",
+      footerLink: [
+        {
+          name: "Visit In LinkedIn",
+          url: "https://www.linkedin.com/company/5gworldpro/"
+        },
+        {
+          name: "Visit Website",
+          url: "https://www.5gworldpro.com/"
+        }
       ]
     },
     {
@@ -268,6 +288,10 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://myrestai.com/"
+        },
+        {
+          name: "Visit In LinkedIn",
+          url: "https://www.linkedin.com/company/myrestai/about/"
         }
       ]
     }
