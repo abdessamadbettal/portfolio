@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Web Developer 🚀 having experience of building Web and Mobile applications with Laravel, JavaScript / React, Vue / Nodejs / Next.js and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1vDdL2gbL3aLLEdkt8fj_bvSIGuJNnHqp/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ROhMlA_BPoNFQ8XDcgXHcQ1wo_0e01H8/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
